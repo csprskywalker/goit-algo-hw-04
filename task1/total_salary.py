@@ -1,4 +1,4 @@
-def total_salary(path):
+def total_salary(path: str) -> int:
     total = 0
     count = 0
     try:
