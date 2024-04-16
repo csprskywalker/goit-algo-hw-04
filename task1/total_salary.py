@@ -1,4 +1,4 @@
-def total_salary(path: str) -> int:
+def total_salary(path: str) -> tuple:
     total = 0
     count = 0
     try:
@@ -19,4 +19,4 @@ def total_salary(path: str) -> int:
 
 
     average = total // count if count else 0
-    return f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}"
+    return total, average
